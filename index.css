@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://m.media-amazon.com/images/I/51+uH7rEO3L._AC_UF894,1000_QL80_.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    color: white;
+     display:flex;
+     justify-content: center;
+}
+.container{
+    height: 300px;
+    width:300px;
+    background:black;
+    border-radius:6px;
+    align-items: center;
+   
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: palevioletred;
+}
+
+#save-btn {
+    background: brown;
+}
+
